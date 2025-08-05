@@ -7,13 +7,31 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>QR Code Generator</h1>
-    <input type="text" id="text" placeholder="Type your text or URL here" />
-    <button onclick="generateQRCode()">Generate QR Code</button>
-    <div id="qrcode"></div>
-    <button id="downloadBtn" style="display:none;" onclick="downloadQRCode()">Download</button>
-  </div>
+  <header>
+    <div class="logo">QRgen</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Generate Free QR Codes Instantly</h1>
+      <p>Just type your text or link and get your unique QR code in seconds!</p>
+      <div class="form">
+        <input type="text" id="text" placeholder="Enter your URL or text..." />
+        <button onclick="generateQRCode()">Generate</button>
+      </div>
+      <button id="downloadBtn" class="download" onclick="downloadQRCode()">Download</button>
+    </div>
+    <div id="qrcode" class="qr-box"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 QRgen. All rights reserved.</p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
   <script src="script.js"></script>
