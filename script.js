@@ -4,7 +4,7 @@ function generateQRCode() {
   qrcodeContainer.innerHTML = ""; // clear previous QR
   if (!text) return;
 
-  QRCode.toCanvas(text, { width: 200 }, function (err, canvas) {
+  QRCode.toCanvas(text, { width: 220 }, function (err, canvas) {
     if (err) return console.error(err);
     qrcodeContainer.appendChild(canvas);
     document.getElementById("downloadBtn").style.display = "inline-block";
