@@ -1,0 +1,6 @@
+{
+  "name": "SeekQR - Professional QR & Barcode Generator",
+  "description": "A feature-rich, modern QR Code and Barcode generator with high-res JPG/PNG/SVG export, customization options, scanner, history, and Blogger.com XML theme exporter.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
