@@ -18,3 +18,8 @@ View your app in AI Studio: https://ai.studio/apps/1c8fa129-b915-4c8f-a13a-31803
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+---
+
+## Live Website & Demo
+
+🌐 **Official Website:** [SeekQR - Free Online QR Code & Barcode Generator](https://seekqr.blogspot.com/)[cite: 1]
